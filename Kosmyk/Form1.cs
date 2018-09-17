@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Kosmyk.Context.Managers;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace Kosmyk
         public Form1()
         {
             InitializeComponent();
+
+            var prodsMgr = new ProductsManager();
+            var prods = prodsMgr.GetProducts();
+
+            productsTable.DataSource = prods;
         }
     }
 }
