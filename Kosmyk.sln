@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kosmyk", "Kosmyk\Kosmyk.csproj", "{05032228-F29F-4BFD-85A9-EB4D749D7BD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kosmyk.Models", "Kosmyk.Models\Kosmyk.Models.csproj", "{DE07C71E-FC19-485A-A5AF-FD4FF8D9477E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kosmyk.Context", "Kosmyk.Context\Kosmyk.Context.csproj", "{A28DC502-84BD-4D1B-AF27-F0BED3F1EE94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{05032228-F29F-4BFD-85A9-EB4D749D7BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05032228-F29F-4BFD-85A9-EB4D749D7BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05032228-F29F-4BFD-85A9-EB4D749D7BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE07C71E-FC19-485A-A5AF-FD4FF8D9477E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE07C71E-FC19-485A-A5AF-FD4FF8D9477E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE07C71E-FC19-485A-A5AF-FD4FF8D9477E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE07C71E-FC19-485A-A5AF-FD4FF8D9477E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A28DC502-84BD-4D1B-AF27-F0BED3F1EE94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28DC502-84BD-4D1B-AF27-F0BED3F1EE94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28DC502-84BD-4D1B-AF27-F0BED3F1EE94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28DC502-84BD-4D1B-AF27-F0BED3F1EE94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
